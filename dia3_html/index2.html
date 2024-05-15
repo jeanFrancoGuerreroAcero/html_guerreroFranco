@@ -1,0 +1,370 @@
+<html>
+    <head>
+        <title>Metrolinea_CL_RECARGA</title>
+        <style>
+            .general{
+                background-color:#FFFFFF ;
+            }
+        </style>
+        <style>
+            .cartelMetroLinea{
+                position: absolute;
+                top: 43px;
+                left: 43px;
+                width: 196px;
+                height: 44px;
+                background: transparent;
+
+            }
+        </style>
+        <style>
+            .imagenCentral{
+                position: absolute;
+                top: 120px;
+                left: 450px;
+                background: transparent;
+            }
+        </style>
+        <style>
+            .rectangulo{
+                position: absolute;
+                top: 0px;
+                left: 1720px;
+                width: 110px;
+                height: 400px;
+                background: transparent;
+            }
+        </style>
+        <style>
+            .iconoArriba{
+                position: absolute;
+                top: 40px;
+                left: 1790px;
+                background: transparent;
+            }
+        </style>
+        <style>
+            .iconoAbajo{
+                position: absolute;
+                top: 860px;
+                left: 1790px;
+                background: transparent;
+            }
+        </style>
+        <style>
+            .menu1{
+                position: absolute;
+                top: 340px;
+                left: 1780px;
+                background: transparent;
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-open-sans);
+                letter-spacing: var(--unnamed-character-spacing-0);
+                color: var(--unnamed-color-ffffff80);
+                text-align: left;
+                font: normal normal normal 20px/27px Open Sans;
+                letter-spacing: 0px;
+                color: #FFFFFF80;
+                opacity: 2;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        </style>
+        <style>
+            .menu2{
+                position: absolute;
+                top: 280px;
+                left: -1px;
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-open-sans);
+                letter-spacing: var(--unnamed-character-spacing-0);
+                color: var(--unnamed-color-ffffff);
+                text-align: left;
+                font: normal normal normal 20px/27px Open Sans;
+                letter-spacing: 0px;
+                color: #FFFFFF;;
+                opacity: 3;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        </style>
+        <style>
+            .menu3{
+                position: absolute;
+                top: 410px;
+                left: 0;
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-open-sans);
+                letter-spacing: var(--unnamed-character-spacing-0);
+                color: var(--unnamed-color-ffffff80);
+                text-align: left;
+                font: normal normal normal 20px/27px Open Sans;
+                letter-spacing: 0px;
+                color: #FFFFFF80;
+                opacity: 1;
+            }
+        </style>
+        <style>
+            .valor{
+                position: absolute;
+                top: 180px;
+                left: 1785px;
+                background: transparent;
+                width: 48px;
+                height: 27px;
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-open-sans);
+                letter-spacing: var(--unnamed-character-spacing-0);
+                color: var(--unnamed-color-ffffff);
+                text-align: left;
+                font: normal normal normal 20px/27px Open Sans;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                opacity: 3;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            }
+        </style>
+        <style>
+            .cuadradoVerde{
+                position: absolute;
+                top: 600px;
+                left: -280;
+                transform: translateY(0);
+                transition: all .4s ease;
+            }
+        </style>
+        <style>
+            .lupa{
+                position: absolute;
+                top: -127px;
+                left: -340.01px;
+            }
+        </style>
+        <style>
+            .carrito{
+                position: absolute;
+                top: -127px;
+                left: -150px;
+            }
+        </style>
+        <style>
+            .verSaldo{
+                position: absolute;
+                top: -137px;
+                left: -550px;
+            }
+        </style>
+        <style>
+            .comprarTarjeta{
+                position: absolute;
+                top: -145px;
+                left: -790px;
+            }
+        </style>
+        <style>
+            .tarjetaSaldo{
+                position: absolute;
+                top: 349px;
+                left: -1220;
+                letter-spacing: var(--unnamed-character-spacing-0);
+                color: var(--unnamed-color-000000);
+                text-align: left;
+                font: normal normal 600 40px/55px Open Sans;
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        </style>
+        <style>
+            .plataGris{
+                position: absolute;
+                top: 620px;
+                left: -1000;
+                width: 288px;
+                height: 58px;
+                border: 1px solid #707070;
+                border-radius: 10px;
+                opacity: 3;
+                color: var(--unnamed-color-000000);
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        </style>
+        <style>
+            .comprar{
+                position: absolute;
+                top: 640px;
+                left: -258px;
+                width: 112px;
+                height: 36px;
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 26px/36px var(--unnamed-font-family-open-sans);
+                letter-spacing: var(--unnamed-character-spacing-0);
+                color: var(--unnamed-color-000000);
+                text-align: left;
+                font: normal normal 600 26px/36px Open Sans;
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        </style>
+        <style>
+            .enCo{
+                position: absolute;
+                top: 610px;
+                left: -258px;
+            }
+        </style>
+        <style>
+            .salActual{
+                position: absolute;
+                top: 440px;
+                left: -1020px;
+                width: 329px;
+                height: 37px;
+                /* UI Properties */
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-27)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-open-sans);
+                letter-spacing: var(--unnamed-character-spacing-0);
+                color: var(--unnamed-color-000000);
+                text-align: left;
+                font: normal normal 600 27px/37px Open Sans;
+                letter-spacing: 1px;
+                color: #000000;
+                opacity: 3;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+            }
+        </style>
+        <style>
+            .escogido{
+                position: absolute;
+                top: 500px;
+                left: -980px;
+                width: 200px;
+                height: 37px;
+                /* UI Properties */
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-27)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-open-sans);
+                letter-spacing: var(--unnamed-character-spacing-0);
+                color: var(--unnamed-color-000000);
+                text-align: left;
+                font: normal normal 600 27px/37px Open Sans;
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            }
+        </style>
+        <style>
+            .dentroPlataGr{
+                position: absolute;
+                top: 605px;
+                left: -900px;
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-27)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-open-sans);
+                letter-spacing: var(--unnamed-character-spacing-0);
+                color: var(--unnamed-color-000000);
+                text-align: left;
+                font: normal normal 600 27px/37px Open Sans;
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 0.5;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="general">
+
+            <div class="cartelMetroLinea">
+                <img src="cartel.png" alt="">
+            </div>
+            <div class="imagenCentral">
+                <img src="central.png" alt=""
+                width="884;"
+                height="497">
+            </div>
+            <div class="rectangulo">
+                <img src="rectangulo.png" alt=""
+                width="180"
+                height="945">
+            </div>
+            <div class="iconoArriba">
+                <img src="iconoArriba.png" alt="">
+            </div>
+            <div class="iconoAbajo">
+                <img src="iconoAbajo.png" alt="">
+            </div>
+            <div class="menu1">
+                <center>
+                    <p>$1000</p>
+                </center>
+            </div>
+            <div class="valor">
+                <center>
+                <p>valor</p>
+                </center>
+            <div class="cuadradoVerde">
+                <img src="rectanguloVerde.jpg" alt=""
+                width="160"
+                height="114">
+            </div>
+            <div class="lupa">
+                <img src="lupa.jpg" alt=""
+                width="51px"
+                height="50px">
+            </div>
+            <div class="carrito">
+                <img src="carrito.jpg" alt=""
+                width="51px"
+                height="50px">
+            </div>
+            <div class="verSaldo">
+                <img src="verSaldo.jpg" alt=""
+                width="160px"
+                height="70px">
+            </div>
+            <div class="comprarTarjeta">
+                <img src="ComprarTarjeta.jpg" alt=""
+                width="210px"
+                height="90px">
+            </div>
+            <div class="tarjetaSaldo">
+                <center>
+                    <p>Tarjeta Metrolínea de “Pepito Perez”</p>
+                </center>
+            </div>
+            <div class="plataGris">
+                <center>
+                <p>$1500p</p>
+                </center>
+            </div>
+            <div class="comprar">
+                    <center>
+                    <p>Recargar</p>
+                    </center>
+            </div>
+            <div class="enCo">
+                <img src="metroEnComprar.jpg" alt=""
+                width="111px"
+                height="36px">
+            </div>
+            <div class="salActual">
+                <center>
+                    <p>SaldoActual=$3000COP</p>
+                </center>
+            </div>
+            <div class="escogido">
+                <center>
+                    <p>SaldoEscogido:</p>
+                </center>
+            </div>
+            <div class=" dentroPlataGr">
+                <center>
+                    <p>$1500</p>
+                </center>
+            </div>
+            <div class="menu2">
+                <center>
+                    <p>$1500</p>
+                </center>
+            </div>
+            <div class="menu3">
+                <center>
+                    <p>$2000</p>
+                </center>
+            </div>
+        </div>
+    </body>
+</html>
