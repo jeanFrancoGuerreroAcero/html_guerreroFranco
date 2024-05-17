@@ -1,6 +1,9 @@
+
+  
 html{
     size-adjust: 1080px;
 }
+
     .fondoFut{
         position: absolute;
         top: 0px;
@@ -8,11 +11,349 @@ html{
         width: 1920px;
     }
     
-    
     .cuadradoAzulG1{
         position: absolute;
-        top: 100px;
-        left: 164px;
+        top: 1106px;
+        left: 64px;
         width: 1792px;
         height: 567px;
+        opacity: 1;
+    }
+    
+    .espacioLogin{
+        position: absolute;
+        top: 30px;
+        left: 1695px;
+        width: 205px;
+        height: 64px;
+        opacity: 1;
+    }
+
+    .login{
+        position: absolute;
+        top: 30px;
+        left: 1780px;   
+        opacity: 1;
+        user-select: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .lupa{
+        position: absolute;
+        top: 37px;
+        left: 63px;
+        width: 36px;
+        height: 36px;
+        opacity: 1;
+    }
+
+    .logoPrime{
+        position: absolute;
+        top: 227px;
+        left: 682px;
+        width: 556px;
+        height: 313px;
+        opacity: 1;
+    }
+
+    .barFavoriteCon{
+        position: absolute;
+        top: 517px;
+        left: 389px;
+        width: 1151px;
+        height: 60px;
+        opacity: 1;
+    }
+
+    .yourFavo{
+        position: absolute;
+        top: 453px;
+        left: 389px;
+        font-size:350%;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 650;
+        color: white;
+        opacity: 1;
+    }
+
+    .nowYou{
+        position: absolute;
+        top: 580px;
+        left: 525px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:x-large;
+        color: white;
+        opacity: 1;
+
+    }
+
+    .nouYou1{
+        position: absolute;
+        top: 630px;
+        left: 430px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+        
+    }
+
+    .cuaAzulGrande{
+        position: absolute;
+        top: 1717px;
+        left: 64px;
+        width: 1792px;
+        height: 724px;
+        opacity: 1;
+
+    }
+
+    .sing-amazonCu{
+        position: absolute;
+        top: 755px;
+        left: 730px;
+        width: 458px;
+        height: 104px;
+        border: 1px solid #707070;
+        border-radius: 52px;
+        opacity: 1;
+    }
+
+    .dentroSingA{
+        position: absolute;
+        top: 760px;
+        left: 830px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: xx-large;
+        opacity: 1;
+    }
+
+    .dentroCuadraAzulGrande{
+        position: absolute;
+        top: 1773px;
+        left: 135px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:380%;
+        font-weight: 600;
+        color: white;
+        opacity: 1;
+    }
+
+    .spaceWekers{
+        position: absolute;
+        top: 1960px;
+        left: 477px;
+        width: 181px;
+        height: 309px;
+        border: 1px solid #707070;
+    }
+
+    .redDot{
+        position: absolute;
+        top: 1960px;
+        left: 670px;
+        width: 181px;
+        height: 309px;
+        border: 1px solid #707070;
+    }
+
+    .soul{
+        position: absolute;
+        top: 1960px;
+        left: 863px;
+        width: 181px;
+        height: 309px;
+        border: 1px solid #707070;
+    }
+
+    .tentacle{
+        position: absolute;
+        top: 1960px;
+        left: 1055px;
+        width: 181px;
+        height: 309px;
+        border: 1px solid #707070
+    }
+
+    .sentinell{
+        position: absolute;
+        top: 1960px;
+        left: 1248px;
+        width: 181px;
+        height: 309px;
+        border: 1px solid #707070
+    }
+
+    .youFill{
+        position: absolute;
+        top: 2250px;
+        left: 440px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 300%;
+        color: white;
+    }
+
+    .youFill1{
+        position: absolute;
+        top: 2320px;
+        left: 290px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 300%;
+        color: white;
+    }
+
+    .cuadradoAny{
+        position: absolute;
+        top: 2467px;
+        left: 64px;
+        width: 1792px;
+        height: 567px;
+    }
+
+    .cancelAny{
+        position: absolute;
+        top: 2450px;
+        left: 560px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 450%;
+        color: white;
+    }
+
+    .botonX{
+        position: absolute;
+        top: 2650px;
+        left: 880px;
+        width: 149px;
+        height: 149px;
+        background: transparent;
+        opacity: 1;
+
+    }
+
+    .ifYou{
+        position: absolute;
+        top: 2881px;
+        left: 470px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: xx-large;
+        color: white;
+    }
+
+    .ifYou1{
+        position: absolute;
+        top: 2930px;
+        left: 940px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: xx-large;
+        color: white;
+        opacity: 1;
+    }
+
+    .Compatibledevices{
+        position: absolute;
+        top: 3000px;
+        left: 470px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 800%;
+    }
+
+    .there{
+        position: absolute;
+        top: 3270px;
+        left: 250px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 290%;
+    }
+
+    .there1{
+        position: absolute;
+        top: 3340px;
+        left: 800px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 290%;
+
+    }
+
+    .pc{
+        position: absolute;
+        top: 3587px;
+        left: 1261px;
+    }
+
+    .mac{
+        position: absolute;
+        top: 3440px;
+        left: 685px;
+        width: 584px;
+        height: 534px;
+
+    }
+
+    .iphone{
+        position: absolute;
+        top: 3606px;
+        left: 386px;
+        width: 256px;
+        height: 219px;
+        opacity: 1;
+    }
+
+    .firma{
+        position: absolute;
+        top: 2650px;
+        left: 526px;
+        width: 930px;
+        height: 341px;
+        opacity: -1;
+    }
+
+    .pryvaci{
+        position: absolute;
+        top: 4100px;
+        left: 556px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:x-large;
+        color: white;
+
+    }
+
+    .terms{
+        position: absolute;
+        top: 4100px;
+        left: 740px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:x-large;
+        color: white;
+    }
+
+    .sales{
+        position: absolute;
+        top: 4100px;
+        left: 960px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:x-large;
+        color: white;
+
+    }
+
+    .legal{
+        position: absolute;
+        top: 4100px;
+        left: 1200px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:x-large;
+        color: white;
+
+    }
+
+    .site{
+        position: absolute;
+        top: 4100px;
+        left: 1310px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:x-large;
+        color: white
+
     }
