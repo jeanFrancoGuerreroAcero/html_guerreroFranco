@@ -357,3 +357,12 @@ html{
         color: white
 
     }
+
+    .firma{
+        position: absolute;
+        top: 3954px;
+        left: 826px;
+        width: 430px;
+        height: 241px;
+        opacity: 1;
+    }
