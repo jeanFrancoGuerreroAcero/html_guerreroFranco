@@ -1,0 +1,597 @@
+@font-face {
+    font-family: letra1;
+    src: url(./letra/Cascadia.ttf);
+}
+
+html {
+    size-adjust: 1080px;
+}
+
+body {
+    font-family: letra1;
+    background-color: #1e1d2b;
+}
+
+.general {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #1e1d2b;
+    width: 1920px;
+    height: 1080px;
+}
+
+.foto {
+    position: absolute;
+    top: 220px;
+    left: 330px;
+
+}
+
+.about {
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    font-size: 240%;
+    color: #ff702a;
+
+}
+
+.we {
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    color: #f0ecec;
+    font-size: 350%;
+}
+
+.foodL {
+    position: absolute;
+    top: 310px;
+    left: 1000px;
+    color: #f0ecec;
+    font-size: 350%;
+}
+
+.itis {
+    position: absolute;
+    top: 440px;
+    left: 1000px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.bedistra {
+    position: absolute;
+    top: 480px;
+    left: 1000px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.lookingat {
+    position: absolute;
+    top: 520px;
+    left: 1000px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.cuaNaran {
+    position: absolute;
+    top: 630px;
+    left: 1000px;
+    width: 280px;
+    height: 60px;
+    background-color: #ff702a;
+}
+
+.LearnMore {
+    position: absolute;
+    top: 605px;
+    left: 1030px;
+    color: #f0ecec;
+    font-size: 200%;
+
+}
+
+.foodmenu {
+    position: absolute;
+    top: 1000px;
+    left: 850px;
+    color: #ff702a;
+    font-size: 200%;
+}
+
+.cuaBla1 {
+    position: absolute;
+    top: 1290px;
+    left: 310px;
+    background-color: antiquewhite;
+    border-style: double;
+    width: 350px;
+    height: 500px;
+}
+
+.cuaBla2 {
+    position: absolute;
+    top: 1290px;
+    left: 800px;
+    background-color: antiquewhite;
+    border-style: double;
+    width: 370px;
+    height: 500px;
+}
+
+.cuaBla3 {
+    position: absolute;
+    top: 1290px;
+    left: 1280px;
+    background-color: antiquewhite;
+    border: 5px solid #1e1d2b;
+    border-style: double;
+    width: 370px;
+    height: 500px;
+}
+
+
+
+.Freshtast {
+    position: absolute;
+    top: 1040px;
+    left: 550px;
+    color: #f0ecec;
+    font-size: 350%;
+}
+
+.fotofood1 {
+    position: absolute;
+    top: 1300px;
+    left: 330px;
+}
+
+.texfo1 {
+    position: absolute;
+    top: 1600px;
+    left: 350px;
+    color: #1e1d2b;
+    font-size: 200%;
+}
+
+.TastyFo1 {
+    position: absolute;
+    top: 1670px;
+    left: 400px;
+    color: #1e1d2b;
+    font-size: 170%;
+}
+
+.precio1 {
+    position: absolute;
+    top: 1720px;
+    left: 430px;
+    color: #ff702a;
+    font-size: 170%;
+}
+
+.fotofood2 {
+    position: absolute;
+    top: 1300px;
+    left: 820px;
+}
+
+.texfo2 {
+    position: absolute;
+    top: 1600px;
+    left: 810px;
+    color: #1e1d2b;
+    font-size: 200%;
+}
+
+.TastyFo2 {
+    position: absolute;
+    top: 1670px;
+    left: 900px;
+    color: #1e1d2b;
+    font-size: 170%;
+}
+
+.precio2 {
+    position: absolute;
+    top: 1720px;
+    left: 930px;
+    color: #ff702a;
+    font-size: 170%;
+}
+
+.fotofood3 {
+    position: absolute;
+    top: 1300px;
+    left: 900px;
+}
+
+.fotofood3 {
+    position: absolute;
+    top: 1300px;
+    left: 1300px;
+}
+
+.texfo3 {
+    position: absolute;
+    top: 1600px;
+    left: 1300px;
+    color: #1e1d2b;
+    font-size: 200%;
+}
+
+.TastyFo3 {
+    position: absolute;
+    top: 1670px;
+    left: 1380px;
+    color: #1e1d2b;
+    font-size: 170%;
+}
+
+.precio3 {
+    position: absolute;
+    top: 1720px;
+    left: 1410px;
+    color: #ff702a;
+    font-size: 170%;
+}
+
+.ServicesAbajo {
+    position: absolute;
+    top: 1920px;
+    left: 850px;
+    color: #ff702a;
+    font-size: 200%;
+}
+
+.Weprovid1 {
+    position: absolute;
+    top: 1990px;
+    left: 510px;
+    color: #f0ecec;
+    font-size: 350%;
+}
+
+.fotS1 {
+    position: absolute;
+    top: 2150px;
+    left: 100px;
+}
+
+.OrderAba {
+    position: absolute;
+    top: 2600px;
+    left: 290px;
+    color: #ff702a;
+    font-size: 200%;
+}
+
+.established {
+    position: absolute;
+    top: 2690px;
+    left: 130px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.readable {
+    position: absolute;
+    top: 2725px;
+    left: 80px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.looking {
+    position: absolute;
+    top: 2760px;
+    left: 150px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.fotS2 {
+    position: absolute;
+    top: 2150px;
+    left: 700px;
+}
+
+.established2 {
+    position: absolute;
+    top: 2690px;
+    left: 720px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.Shipping {
+    position: absolute;
+    top: 2600px;
+    left: 860px;
+    color: #ff702a;
+    font-size: 200%;
+}
+
+.fotS3 {
+    position: absolute;
+    top: 2150px;
+    left: 1300px;
+}
+
+.readable2 {
+    position: absolute;
+    top: 2725px;
+    left: 680px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.looking1 {
+    position: absolute;
+    top: 2760px;
+    left: 740px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.Dellvered {
+    position: absolute;
+    top: 2600px;
+    left: 1470px;
+    color: #ff702a;
+    font-size: 200%;
+}
+
+.established3 {
+    position: absolute;
+    top: 2690px;
+    left: 1330px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.readable3 {
+    position: absolute;
+    top: 2725px;
+    left: 1276px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.looking2 {
+    position: absolute;
+    top: 2760px;
+    left: 1360px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.cuaBlaGra {
+    position: absolute;
+    top: 3200px;
+    left: 240px;
+    background-color: antiquewhite;
+    border: 5px double solid black;
+    border-style: double;
+    width: 1400px;
+    height: 450px;
+}
+
+.makequalityfo {
+    position: absolute;
+    top: 3200px;
+    left: 500px;
+    color: #302c44;
+    font-size: 450%;
+}
+
+.Everyday {
+    position: absolute;
+    top: 3300px;
+    left: 750px;
+    color: #302c44;
+    font-size: 450%;
+}
+
+.seNara {
+    position: absolute;
+    top: 3500px;
+    left: 770px;
+    width: 280px;
+    height: 60px;
+    background-color: #ff702a;
+}
+
+.denseNara {
+    position: absolute;
+    top: 3480px;
+    left: 810px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.MenuLinks {
+    position: absolute;
+    top: 4000px;
+    left: 330px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.HomeUlti {
+    position: absolute;
+    top: 4100px;
+    left: 330px;
+    color: #f0ecec;
+    font-size: 200%;
+
+}
+
+.AboutUlti {
+    position: absolute;
+    top: 4150px;
+    left: 330px;
+    color: #f0ecec;
+    font-size: 200%;
+
+}
+
+.MenuUlti {
+    position: absolute;
+    top: 4200px;
+    left: 330px;
+    color: #f0ecec;
+    font-size: 200%;
+
+}
+
+.ServiceIlti {
+    position: absolute;
+    top: 4250px;
+    left: 330px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.ContactUlti {
+    position: absolute;
+    top: 4300px;
+    left: 330px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.OurServiveUlti {
+    position: absolute;
+    top: 4000px;
+    left: 630px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.WebDesign {
+    position: absolute;
+    top: 4100px;
+    left: 630px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.WebDevelopment {
+    position: absolute;
+    top: 4150px;
+    left: 630px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.Marketing {
+    position: absolute;
+    top: 4200px;
+    left: 630px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.ProductManagement {
+    position: absolute;
+    top: 4250px;
+    left: 630px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.GraphicDesign {
+    position: absolute;
+    top: 4300px;
+    left: 630px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.InformationUlti {
+    position: absolute;
+    top: 4000px;
+    left: 1050px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.AboutFinal {
+    position: absolute;
+    top: 4100px;
+    left: 1050px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.DeliveryInformation {
+    position: absolute;
+    top: 4150px;
+    left: 1050px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.PrivacyPolicyF {
+    position: absolute;
+    top: 4200px;
+    left: 1050px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.TermsConditions {
+    position: absolute;
+    top: 4250px;
+    left: 1050px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.ContactUsFi {
+    position: absolute;
+    top: 4000px;
+    left: 1500px;
+    color: #f0ecec;
+    font-size: 200%;
+}
+
+.raya1 {
+    position: absolute;
+    top: 4100px;
+    left: 330px;
+    background-color: #ff702a;
+    width: 100px;
+    height: 5px;
+}
+
+.raya2 {
+    position: absolute;
+    top: 4100px;
+    left: 630px;
+    background-color: #ff702a;
+    width: 80px;
+    height: 5px;
+}
+
+.raya3 {
+    position: absolute;
+    top: 4100px;
+    left: 1050px;
+    background-color: #ff702a;
+    width: 80px;
+    height: 5px;
+}
+
+.WemakePer{
+    position: absolute;
+    top: 3200px;
+    left: 750px;
+    color: #302c44;
+    font-size: 450%;
+}
