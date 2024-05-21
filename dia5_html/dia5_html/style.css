@@ -1,0 +1,130 @@
+@font-face {
+    font-family: letra;
+    src: url(./letra/Cascadia.ttf);
+}
+
+html{
+    size-adjust: 1080px;
+}
+body{
+    font-family: letra;
+    background-color: #1e1d2b;
+}
+
+.general{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #1e1d2b;
+    width:  1920px;
+    height: 1080px;
+}
+
+.food{
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    font-size: 310%;
+    color: #ff702a;
+}
+
+.home{
+    position: absolute;
+    top: 5px;
+    left: 1080px;
+    font-size: 270%;
+    color: #f0ecec;
+}
+
+.borde{
+    position: absolute;
+    top: 38px;
+    left: 1070px;
+    border: 3px solid green ;
+    width: 120px;
+    height: 60px;
+}
+
+.about{
+    position: absolute;
+    top: 5px;
+    left: 1260px;
+    font-size: 270%;
+    color: #f0ecec;
+}
+
+.menu{
+    position: absolute;
+    top: 5px;
+    left: 1460px;
+    font-size: 270%;
+    color: #f0ecec;
+}
+
+.service{
+    position: absolute;
+    top: 5px;
+    left: 1600px;
+    font-size: 270%;
+    color: #f0ecec;
+}
+
+.contact{
+    position: absolute;
+    top: 5px;
+    left: 1800px;
+    font-size: 270%;
+    color: #f0ecec;
+}
+
+.full{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    font-size: 1000%;
+    color: #ff702a;
+}
+
+.fodthe{
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    font-size: 270%;
+    color: #f0ecec;
+}
+
+.Mostpreci{
+    position: absolute;
+    top: 560px;
+    left: 300px;
+    font-size: 270%;
+    color: #f0ecec;
+}
+
+.cuaNara{
+    position: absolute;
+    top: 720px;
+    left: 300px;
+    width: 280px;
+    height: 80px;
+    background-color: #ff702a;
+}
+
+.denNara{
+    position: absolute;
+    top: 705px;
+    left: 310px;
+    font-size: 220%;;
+    color: #f0ecec;
+    list-style: none;
+    display: inline;
+}
+
+.fotoHome{
+    position: absolute;
+    top: 200px;
+    left: 1200px;
+}
+
+<!---->
+
