@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: letra;
+    font-family: Arial,  sans-serif;
 }
 
 html {
@@ -93,14 +93,6 @@ html {
     font-size: x-large;
 }
 
-.cua2 {
-    position: absolute;
-    top: 840px;
-    left: 564px;
-    width: 792px;
-    height: 63px;
-    border: 1px solid #707070;
-}
 
 .fechaCita {
     position: absolute;
@@ -109,15 +101,6 @@ html {
     font-size: x-large;
 }
 
-.cua3 {
-    position: absolute;
-    top: 980px;
-    left: 564px;
-    width: 792px;
-    height: 63px;
-    border: 1px solid #707070;
-
-}
 
 .robot5 {
     position: absolute;
@@ -138,4 +121,34 @@ html {
     top: 1050px;
     left: 620px;
     opacity: 0.5;
+}
+
+.input1 input {
+    position: absolute;
+    top: 820px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.input2 input {
+    position: absolute;
+    top: 980px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.input3 input{
+    position: absolute;
+    top: 680px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+    font-size: larger;
 }

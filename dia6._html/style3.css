@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: letra;
+    font-family: Arial, sans-serif;
 }
 
 html {
@@ -42,7 +42,6 @@ html {
     left: 167px;
     width: 1545px;
     height: 1225px;
-    border-radius: 20px;
 
 }
 
@@ -165,7 +164,7 @@ html {
     top: 740px;
     left: 564px;
     font-size: x-large;
-    font-weight: 600;
+
 }
 
 .cua1 {
@@ -183,7 +182,6 @@ html {
     top: 870px;
     left: 564px;
     font-size: x-large;
-    font-weight: 600;
 }
 
 .cua2 {
@@ -208,7 +206,7 @@ html {
 .Sitienes1 {
     position: absolute;
     top: 1150px;
-    left: 700px;
+    left: 600px;
     opacity: 0.5;
 }
 
@@ -216,4 +214,67 @@ html {
     position: absolute;
     top: 1210px;
     left: 877px;
+}
+
+.inp1 input {
+    position: absolute;
+    top: 810px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+    opacity: 1;
+    font-size: x-large;
+
+}
+
+.input2 input {
+    position: absolute;
+    top: 950px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+    opacity: 1;
+    font-size: x-large;
+}
+
+.like {
+    position: absolute;
+    top: 565px;
+    left: 807px;
+    width: 9px;
+    height: 7px;
+}
+
+.like2 {
+    position: absolute;
+    top: 595px;
+    left: 845px;
+    width: 9px;
+    height: 7px;
+}
+
+.like3 {
+    position: absolute;
+    top: 625px;
+    left: 638px;
+    width: 9px;
+    height: 7px;
+}
+
+.like4 {
+    position: absolute;
+    top: 655px;
+    left: 710px;
+    width: 9px;
+    height: 7px;
+}
+
+.like5 {
+    position: absolute;
+    top: 685px;
+    left: 605px;
+    width: 9px;
+    height: 7px;
 }

@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: letra;
+    font-family: Arial, sans-serif;
 }
 
 html {
@@ -41,7 +41,7 @@ html {
     top: 191px;
     left: 167px;
     width: 1545px;
-    height: 1225px;
+    height: 1905px;
     border-radius: 20px;
 
 }
@@ -91,15 +91,6 @@ html {
     font-size: x-large;
 }
 
-.cua1 {
-    position: absolute;
-    top: 710px;
-    left: 564px;
-    width: 792px;
-    height: 63px;
-    border: 1px solid #707070;
-}
-
 .fechaExpe {
     position: absolute;
     position: absolute;
@@ -110,20 +101,30 @@ html {
 
 }
 
-.cua2 {
-    position: absolute;
-    position: absolute;
-    top: 870px;
-    left: 564px;
-    width: 792px;
-    height: 63px;
-    border: 1px solid #707070;
-}
-
 .continuar {
     position: absolute;
     top: 1100px;
     left: 789px;
     width: 300px;
     height: 76px;
+}
+
+.input1 input{
+    position: absolute;
+    top: 700px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+    font-size: larger;
+}
+
+.calen1 input{
+    position: absolute;
+    top: 860px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    font-size: larger;
+    font-weight: 600;
 }
