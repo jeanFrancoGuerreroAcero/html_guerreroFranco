@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: letra;
+    font-family: Arial, sans-serif;
 }
 
 html {
@@ -67,7 +67,6 @@ html {
     top: 624px;
     left: 765px;
     font-size: 280%;
-    font-weight: 600;
 }
 
 .FelicitacionTu {
@@ -78,7 +77,6 @@ html {
     width: 1000px;
     height: 84px;
     font-size: 280%;
-    font-weight: 600;
 }
 
 .sol {
