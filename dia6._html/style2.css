@@ -1,0 +1,98 @@
+@font-face {
+    font-family: letra;
+    src: url(./letra/AdobeCleanRegular.otf);
+}
+
+body {
+    font-family: letra;
+}
+
+html {
+    size-adjust: 1080px;
+}
+
+.fondo {
+    position: absolute;
+    top: 0px;
+    left: -288.7714538574219px;
+    width: 1920px;
+    height: 1080px;
+}
+
+.barArr {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 174px;
+    opacity: 1;
+}
+
+.barAbaj {
+    position: absolute;
+    top: 1463px;
+    left: 0px;
+    width: 1920px;
+    height: 285px;
+}
+
+.cuaGran {
+    position: absolute;
+    top: 191px;
+    left: 167px;
+    width: 1545px;
+    height: 1225px;
+    border-radius: 20px;
+
+}
+
+.dian {
+    position: absolute;
+    top: 242px;
+    left: 804px;
+    width: 313px;
+    height: 53px;
+}
+
+.chuloverde {
+    position: absolute;
+    top: 359px;
+    left: 845px;
+    width: 231px;
+    height: 231px;
+}
+
+.SolicitudComplet {
+    position: absolute;
+    top: 624px;
+    left: 765px;
+    font-size: 280%;
+    font-weight: 600;
+}
+
+.FelicitacionTu {
+    position: absolute;
+    top: 780px;
+    left: 460px;
+    text-align: center;
+    width: 1000px;
+    height: 84px;
+    font-size: 280%;
+    font-weight: 600;
+}
+
+.sol {
+    position: absolute;
+    top: 980px;
+    left: 828px;
+    width: 264px;
+    height: 88px;
+}
+
+.boConsultar {
+    position: absolute;
+    top: 1150px;
+    left: 805px;
+    width: 311px;
+    height: 79px;
+}

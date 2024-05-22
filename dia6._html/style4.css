@@ -1,0 +1,129 @@
+@font-face {
+    font-family: letra;
+    src: url(./letra/AdobeCleanRegular.otf);
+}
+
+body {
+    font-family: letra;
+}
+
+html {
+    size-adjust: 1080px;
+}
+
+.barArr {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 174px;
+    opacity: 1;
+}
+
+.fondo {
+    position: absolute;
+    top: 0px;
+    left: -288.7714538574219px;
+    width: 1920px;
+    height: 1080px;
+}
+
+.barAbaj {
+    position: absolute;
+    top: 1463px;
+    left: 0px;
+    width: 1920px;
+    height: 285px;
+}
+
+.cuaGran {
+    position: absolute;
+    top: 191px;
+    left: 167px;
+    width: 1545px;
+    height: 1225px;
+    border-radius: 20px;
+
+}
+
+.dian {
+    position: absolute;
+    top: 242px;
+    left: 804px;
+    width: 313px;
+    height: 53px;
+}
+
+.firma {
+    position: absolute;
+    top: 307px;
+    left: 925px;
+}
+
+.TramitarFirm {
+    position: absolute;
+    top: 363px;
+    left: 830px;
+    font-size: x-large;
+    font-weight: 600
+}
+
+.patrami {
+    position: absolute;
+    top: 419px;
+    left: 350px;
+    width: 1290px;
+    height: 64px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.sol {
+    position: absolute;
+    top: 550px;
+    left: 845px;
+}
+
+.NúmerDocumento {
+    position: absolute;
+    top: 640px;
+    left: 569px;
+    font-size: x-large;
+}
+
+.cua1 {
+    position: absolute;
+    top: 710px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+}
+
+.fechaExpe {
+    position: absolute;
+    position: absolute;
+    top: 790px;
+    left: 569px;
+    font-size: x-large;
+    font-weight: 500;
+
+}
+
+.cua2 {
+    position: absolute;
+    position: absolute;
+    top: 870px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+}
+
+.continuar {
+    position: absolute;
+    top: 1100px;
+    left: 789px;
+    width: 300px;
+    height: 76px;
+}

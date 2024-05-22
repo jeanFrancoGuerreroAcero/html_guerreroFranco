@@ -1,0 +1,219 @@
+@font-face {
+    font-family: letra;
+    src: url(./letra/AdobeCleanRegular.otf);
+}
+
+body {
+    font-family: letra;
+}
+
+html {
+    size-adjust: 1080px;
+}
+
+.barArr {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 174px;
+    opacity: 1;
+}
+
+.fondo {
+    position: absolute;
+    top: 0px;
+    left: -288.7714538574219px;
+    width: 1920px;
+    height: 1080px;
+}
+
+.barAbaj {
+    position: absolute;
+    top: 1463px;
+    left: 0px;
+    width: 1920px;
+    height: 285px;
+}
+
+.cuaGran {
+    position: absolute;
+    top: 191px;
+    left: 167px;
+    width: 1545px;
+    height: 1225px;
+    border-radius: 20px;
+
+}
+
+.dian {
+    position: absolute;
+    top: 242px;
+    left: 804px;
+    width: 313px;
+    height: 53px;
+}
+
+.chuloverde {
+    position: absolute;
+    top: 359px;
+    left: 845px;
+    width: 231px;
+    height: 231px;
+}
+
+.SolicitudComplet {
+    position: absolute;
+    top: 624px;
+    left: 765px;
+    font-size: 280%;
+    font-weight: 600;
+}
+
+.FelicitacionTu {
+    position: absolute;
+    top: 780px;
+    left: 460px;
+    text-align: center;
+    width: 1000px;
+    height: 84px;
+    font-size: 280%;
+    font-weight: 600;
+}
+
+.sol {
+    position: absolute;
+    top: 980px;
+    left: 828px;
+    width: 264px;
+    height: 88px;
+}
+
+.boConsultar {
+    position: absolute;
+    top: 1150px;
+    left: 805px;
+    width: 311px;
+    height: 79px;
+}
+
+.firma {
+    position: absolute;
+    top: 307px;
+    left: 925px;
+}
+
+.TramElectró {
+    position: absolute;
+    top: 363px;
+    left: 800px;
+    font-size: xx-large;
+
+}
+
+.ingreContra {
+    position: absolute;
+    top: 450px;
+    left: 550px;
+    font-size: xx-large;
+}
+
+.Recuerde {
+    position: absolute;
+    top: 510px;
+    left: 787px;
+    opacity: 0.5;
+}
+
+.debe {
+    position: absolute;
+    top: 550px;
+    left: 823px;
+    opacity: 0.5;
+}
+
+.tener {
+    position: absolute;
+    top: 580px;
+    left: 862px;
+    opacity: 0.5;
+}
+
+.tener2 {
+    position: absolute;
+    top: 610px;
+    left: 650px;
+    opacity: 0.5;
+}
+
+.tener3 {
+    position: absolute;
+    top: 640px;
+    left: 725px;
+    opacity: 0.5;
+}
+
+.tener4 {
+    position: absolute;
+    top: 670px;
+    left: 618px;
+    opacity: 0.5;
+}
+
+.Contraseña {
+    position: absolute;
+    top: 740px;
+    left: 564px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.cua1 {
+    position: absolute;
+    top: 810px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.VuelveIngre {
+    position: absolute;
+    top: 870px;
+    left: 564px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.cua2 {
+    position: absolute;
+    top: 950px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+    opacity: 1;
+
+}
+
+.robot {
+    position: absolute;
+    top: 1050px;
+    left: 760px;
+    width: 401px;
+    height: 113px;
+}
+
+.Sitienes1 {
+    position: absolute;
+    top: 1150px;
+    left: 700px;
+    opacity: 0.5;
+}
+
+.crear {
+    position: absolute;
+    top: 1210px;
+    left: 877px;
+}
