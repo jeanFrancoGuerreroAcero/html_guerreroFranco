@@ -1,24 +1,100 @@
-body{
+body {
     background-color: white;
 }
-.grilla1{
+
+.grid-container {
     display: grid;
-    width: 20vw;
-    height: 30vw;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    padding: 10px;
+    width: 75vw;
+    height: 90vw;
+    margin-left: 15vw;
 }
 
-.grilla1 .primerVideo{
-    width: 20vw;
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grilla1{
+    margin-top: 4vw;
+    margin-left: 5vw;
+    border-radius: 5%;
+    width: 34vw;
+    height: 25vw;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.grilla2{
+    margin-top: 4vw;
+    margin-left: 1vw;
+    background-image: url(arriba.jpg);
+    background-size: 35vw;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 52vw;
+    border-radius: 5%;
+}
+
+.grilla4{
+    margin-top: -28vw;
+    margin-left: 5vw;
+    border-radius: 5%;
+    width: 34vw;
+    height: 27vw;
+}
+
+.grilla5{
+    margin-top: -4vw;
+    margin-left: -32vw;
+    border-radius: 5%;
+    width: 65vw;
+    height: 40vw;
+}
+
+.grid-2{
+    background-color: black;
+    width: 75vw;
+    height: 50vw;
+    margin-left: 15vw;
+    border: 5%;
+}
+
+.grillaParte1{
+    margin-top: 4vw;
+    margin-left: 6vw;
+    border-radius: 5%;
+    background-image: url(ultimoAba.jpg);
+    background-size: 30vw;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 18vw;
+}
+
+.grillaParte2{
+    margin-top: -18vw;
+    margin-left: 37vw;
+    border-radius: 7%;
+    background-image: url(nuevaUlti.jpeg);
+    background-size: 27vw;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 51vw;
+}
+
+.grillaParte3{
+    margin-top: -32vw;
+    margin-left: 6vw;
+    border-radius: 5%;
+}
+
+.grillaParte3 .videito{
+    width: 30vw;
     height: 20vw;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    border: black;
-}
-
-.grilla1 .videoAba{
-    width: 10vw;
-    height: 10vw;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    
+    border-radius: 10%;
 }
