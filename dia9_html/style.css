@@ -1,0 +1,20 @@
+.general{
+    background-image: url(paisaje.avif);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 50vw;
+}
+
+.nuve img{
+    width: 5vw;
+    height: 6vw;
+    margin-top: 2vw;
+    margin-left: 90vw;
+    animation-name: nuve;
+    animation-duration: 7s;
+    animation-delay: 3s;
+}
+
+@keyframes nuve{
+    
+}
