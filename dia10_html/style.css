@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.genera{
+    width: 100vw;
+    height: 100vh;
+}
+.barMenu{
+    display: flex;
+    margin-top: -1vw;
+    margin-left: -1vw;
+    width: 20vw;
+    height: 49.7vw;
+    background-color: gray;
+}
+
+.barMenu .admin{
+    display: flex;
+    padding-top: 1vw;
+    padding-left: 6vw;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.barMenu .fueDash{
+    margin-top: 6vw;
+    margin-left: -9vw;
+    width: 15vw;
+    height: 2.5vw;
+    background-color: aqua;
+    border-radius: 10%;
+}
+
+.barMenu .pala{
+    margin-top: 0.5vw;
+}
+
+.barMenu .main{
+    margin-top: 10vw;
+    margin-left: -15vw;
+}
+
+.barMenu .fueEle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.barMenu .denEle{
+    margin-top: 13vw;
+}
+
+.mayor{
+    margin-top: 13vw;
+    margin-left: 3vw;
+}
+
+
+
