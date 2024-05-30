@@ -6,6 +6,7 @@
     animation-name: general;
     animation-duration: 30s;
     animation-iteration-count: 1;
+    animation-iteration-count: infinite;
 }
 
 .nuve img{
@@ -14,17 +15,17 @@
     position: relative;
     animation-name: nuve;
     animation-duration: 29s;
-    animation-iteration-count: infinite;
     opacity: -1;
     animation-delay: 12s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes nuve{
     0%   {opacity: 1;left:90vw; top:11vw;}
     10% {opacity: 1;left: 25vw; top: 11vw;}
     40%{opacity: 1;left: 0vw;top: 11vw;}
-    50%{opacity: 1;left: 0vw; top: 11vw;}
-    90%{opacity: -1;left: 0vw;top: 11vw;}
+    41%{opacity: 1;left: 0vw; top: 11vw;}
+    42%{opacity: -1;left: 0vw;top: 11vw;}
     100%{opacity: -1;left: 0vw;top: 11vw;}
 }
 
@@ -36,14 +37,16 @@
     padding-left: 56vw;
     animation-name: sol;
     animation-duration: 30s;
-    animation-iteration-count: infinite;
-    animation-delay: 1s;
     animation-delay: 16s;
+    animation-iteration-count: infinite;
     opacity: 0.5;
 }
 
 @keyframes sol{
-    0%{opacity: 2;}
+    0%{opacity: 0.6;}
+    5%{opacity: 0.8;}
+    10%{opacity: 1;}
+    80%{opacity: 0.7;}
     100%{opacity: 0.5;}
 }
 
@@ -128,7 +131,7 @@
 .gota1 img{
     position: relative;
     top: -28vw;
-    left: 26vw;
+    left: 29vw;
     width: 10vw;
     height: 10vw;
     animation-name: gota1;
@@ -140,18 +143,20 @@
 
 @keyframes gota1{
     0%{opacity: 1;top: -28vw;}
-    100%{opacity: 1;top: -19vw;}
+    10%{opacity: 1;top: -19vw;}
+    50%{opacity: -1;top: -19vw;}
+    100%{opacity: -1;top: -19vw;}
 }
 
 .flor img{
     position: relative;
     top: -25vw;
-    left: 27vw;
+    left: 29vw;
     width: 5vw;
     height: 4vw;
     animation-name: flor;
     animation-duration: 28s;
-    animation-delay: 19s;
+    animation-delay: 16s;
     opacity: -1;
     animation-iteration-count: infinite;
 }
@@ -159,6 +164,8 @@
 @keyframes flor{
     0%{opacity: 0.5;width: 7vw;height: 7vw; top: -28vw;}
     20%{opacity: 1;width: 10vw;height: 10vw; top: -30vw;}
-    100%{opacity: 1;width: 10vw;height: 10vw; top: -32vw;}
+    30%{opacity: 1;width: 10vw;height: 10vw; top: -32vw;}
+    90%{opacity: -1;width: 10vw;height: 10vw;top: -32vw;}
+    100%{opacity: -1;width: 10vw;height: 10vw;top: -32vw;}
 }
 
