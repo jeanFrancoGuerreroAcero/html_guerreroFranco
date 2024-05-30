@@ -3,18 +3,162 @@
     background-size: 100vw;
     background-repeat: no-repeat;
     height: 50vw;
+    animation-name: general;
+    animation-duration: 30s;
+    animation-iteration-count: 1;
 }
 
 .nuve img{
-    width: 5vw;
-    height: 6vw;
-    margin-top: 2vw;
-    margin-left: 90vw;
+    width: 17vw;
+    height: 10vw;
+    position: relative;
     animation-name: nuve;
-    animation-duration: 7s;
-    animation-delay: 3s;
+    animation-duration: 29s;
+    animation-iteration-count: infinite;
+    opacity: -1;
+    animation-delay: 12s;
 }
 
 @keyframes nuve{
-    
+    0%   {opacity: 1;left:90vw; top:11vw;}
+    10% {opacity: 1;left: 25vw; top: 11vw;}
+    40%{opacity: 1;left: 0vw;top: 11vw;}
+    50%{opacity: 1;left: 0vw; top: 11vw;}
+    90%{opacity: -1;left: 0vw;top: 11vw;}
+    100%{opacity: -1;left: 0vw;top: 11vw;}
 }
+
+.sol img{
+    width: 10vw;
+    height: 12vw;
+    position: relative;
+    top: -60vw;
+    padding-left: 56vw;
+    animation-name: sol;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-delay: 16s;
+    opacity: 0.5;
+}
+
+@keyframes sol{
+    0%{opacity: 2;}
+    100%{opacity: 0.5;}
+}
+
+.numsInicio .primerNu{
+    position: relative;
+    top: 30vw;
+    left: 47vw;
+    font-size: 4vw;
+    animation-name: le1;
+    animation-duration: 30s;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-iteration-count: infinite;
+}
+
+@keyframes le1{
+    0%{opacity: 1;}
+    12%{opacity: -1;}
+    100%{opacity: -1;}
+}
+
+.numsInicio .segunNu{
+    position: relative;
+    top: 21vw;
+    left: 47vw;
+    font-size: 4vw;
+    animation-name: le2;
+    animation-duration: 30s;
+    animation-delay: 3s;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: -1;
+    animation-iteration-count: infinite;
+}
+
+@keyframes le2{
+    0%{opacity: 0.5;}
+    5%{opacity: 1;}
+    10%{opacity: -1;}
+    100%{opacity: -1;}
+}
+
+.numsInicio .tercerNu{
+    position: relative;
+    top: 12vw;
+    left: 47vw;
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: le3;
+    animation-duration: 30s;
+    animation-delay: 6s;
+    opacity: -1;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes le3{
+    0%{opacity: 0.5;}
+    5%{opacity: 1;}
+    10%{opacity: -1;}
+    100%{opacity: -1;}
+}
+
+.numsInicio .fin{
+    position: relative;
+    top: 3vw;
+    left: 44vw;
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: final;
+    animation-duration: 30s;
+    animation-delay: 9s;
+    opacity: -1;
+    animation-iteration-count: infinite;
+}
+
+@keyframes final{
+    0%{opacity: 0.5;}
+    5%{opacity: 1;}
+    10%{opacity: -1;}
+    100%{opacity: -1;}
+}
+
+.gota1 img{
+    position: relative;
+    top: -28vw;
+    left: 26vw;
+    width: 10vw;
+    height: 10vw;
+    animation-name: gota1;
+    animation-duration: 30s;
+    animation-delay: 14.3s;
+    opacity: -1;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gota1{
+    0%{opacity: 1;top: -28vw;}
+    100%{opacity: 1;top: -19vw;}
+}
+
+.flor img{
+    position: relative;
+    top: -25vw;
+    left: 27vw;
+    width: 5vw;
+    height: 4vw;
+    animation-name: flor;
+    animation-duration: 28s;
+    animation-delay: 19s;
+    opacity: -1;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flor{
+    0%{opacity: 0.5;width: 7vw;height: 7vw; top: -28vw;}
+    20%{opacity: 1;width: 10vw;height: 10vw; top: -30vw;}
+    100%{opacity: 1;width: 10vw;height: 10vw; top: -32vw;}
+}
+
