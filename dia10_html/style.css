@@ -35,11 +35,13 @@ body{
 
 .barMenu .pala{
     margin-top: 0.5vw;
+    font-size: 1vw;
 }
 
 .barMenu .main{
     margin-top: 10vw;
     margin-left: -15vw;
+    font-size: 1vw;
 }
 
 .barMenu .fueEle{
@@ -49,12 +51,253 @@ body{
 
 .barMenu .denEle{
     margin-top: 13vw;
+    font-size: 1vw;
 }
 
 .mayor{
     margin-top: 13vw;
     margin-left: 3vw;
+    font-size: 1vw;
+}
+
+.charst{
+    margin-top: 17vw;
+    margin-left: -8vw;
+    font-size: 1vw;
+}
+
+.widt{
+    margin-top: 22vw;
+    margin-left: -3vw;
+    font-size: 1vw;
+}
+
+.table{
+    margin-top: 25vw;
+    margin-left: -7vw;
+    font-size: 1vw;
+}
+
+.tablecita{
+    margin-top: 29vw;
+    margin-left: -7vw;
+    font-size: 1vw;
+}
+
+.forms{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formitas{
+    font-size: 1vw;
+    margin-top: 32vw;
+    margin-left: -2.6vw;
+}
+
+.barraBot{
+    margin-top: -49.2vw;
+    margin-left: 19vw;
+    width: 80vw;
+    height: 5vw;
+    background-color: brown;
+}
+
+.botn1{
+    width: 5vw;
+    height: 3vw;
+    font-size: 2vw;
+    margin-left: -75vw;
+    background-color: transparent;
+}
+
+.mayorcito{
+    margin-top: 30vw;
+    margin-left: 6vw;
+}
+
+.titulo{
+    margin-left: -47vw;
+    font-size: 1vw;
+}
+
+.home{
+    margin-left: -52vw;
+    color: aqua;
+
+}
+
+.barrita{
+    margin-left: -47vw;
+    margin-top: -2.2vw;
+    font-size: 1vw;
+}
+
+.Dashboard{
+    margin-top: -1.2vw;
+    margin-left: -40vw;
+    font-size: 1vw;
+}
+
+.caja1{
+    width: 18vw;
+    height: 10vw;
+    background-color: blueviolet;
+    border-radius: 5%;
+    margin-top: 5vw;
+    margin-left: 20vw;
+    text-align: left;
+}
+
+.precio1{
+    padding-top: 0.1vw;
+    padding-left: 0.7vw;
+    font-size: 1vw;
+}
+
+.trafico{
+    margin-top: -1vw;
+    padding-left: 1vw;
+    font-size: 1vw;
+}
+
+.barrita1{
+    width: 10vw;
+    height: 1vw;
+    background-color: black;
+    border-radius: 13%;
+    margin-left: 1vw;
+}
+
+.porcentaje1{
+    margin-left: 1vw;
+    font-size: 1vw;
+}
+
+.caja2{
+    width: 18vw;
+    height: 10vw;
+    background-color: blueviolet;
+    border-radius: 5%;
+    margin-top: -10.3vw;
+    margin-left: 20vw;
+    text-align: left;
+}
+
+.precio2{
+    padding-top: 0.1vw;
+    padding-left: 0.7vw;
+    font-size: 1vw;
+}
+
+.sales{
+    margin-top: -1vw;
+    padding-left: 0.7vw;
+    font-size: 1vw;
+}
+
+.barrita2{
+    width: 10vw;
+    height: 1vw;
+    background-color: black;
+    border-radius: 13%;
+    margin-left: 1vw;
+}
+
+.porcentaje2{
+    margin-left: 1vw;
+    font-size: 1vw;
 }
 
 
+.caja3{
+    width: 18vw;
+    height: 10vw;
+    background-color: blueviolet;
+    border-radius: 5%;
+    margin-top: -10.3vw;
+    margin-left: 20vw;
+    text-align: left;
+}
 
+.precio3{
+    padding-top: 0.1vw;
+    padding-left: 0.7vw;
+    font-size: 1vw;
+}
+
+.pageviews{
+    margin-top: -1vw;
+    padding-left: 0.7vw;
+    font-size: 1vw;
+}
+
+.barrita3{
+    width: 10vw;
+    height: 1vw;
+    background-color: black;
+    border-radius: 13%;
+    margin-left: 1vw;
+}
+
+.porcentaje3{
+    margin-left: 1vw;
+    font-size: 1vw;
+}
+
+.caja4{
+    width: 18vw;
+    height: 10vw;
+    background-color: blueviolet;
+    border-radius: 5%;
+    margin-top: -10.3vw;
+    margin-left: 20vw;
+    text-align: left;
+}
+
+.precio4{
+    padding-top: 0.1vw;
+    padding-left: 0.7vw;
+    font-size: 1vw;
+}
+
+.visitors{
+    margin-top: -1vw;
+    padding-left: 0.7vw;
+    font-size: 1vw;
+}
+
+.barrita4{
+    width: 10vw;
+    height: 1vw;
+    background-color: black;
+    border-radius: 13%;
+    margin-left: 1vw;
+}
+
+.porcentaje4{
+    margin-left: 1vw;
+    font-size: 1vw;
+}
+
+.ultiBarra{
+    text-align: left;
+    margin-top: 3vw;
+    margin-left: -60vw;
+    width: 77.7vw;
+    height: 10vw;
+    border-radius: 10%;
+    background-color: red;
+}
+
+.salReport{
+    padding-top: 0.1vw;
+    padding-left: 1vw;
+    font-size: 2vw;
+}
+
+.holMun{
+    padding-top: 0vw;
+    padding-left: 1vw;
+    font-size: 1.5vw;
+}
