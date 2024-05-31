@@ -1,6 +1,11 @@
+@font-face {
+    font-family: letra;
+    src: url(./hoxton-north-font-family-1717143581-0/HoxtonNorthTrial-Bold-BF63c8981406eaa.otf);
+}
+
 body{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: letra;
 }
 .genera{
     width: 100vw;
@@ -12,30 +17,30 @@ body{
     margin-left: -1vw;
     width: 20vw;
     height: 49.7vw;
-    background-color: gray;
+    background-color: whitesmoke;
 }
 
 .barMenu .admin{
     display: flex;
     padding-top: 1vw;
     padding-left: 6vw;
-    font-size: 1.5vw;
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    font-size: 1.9vw;
+    color: #0c5ce4;
 }
 
 .barMenu .fueDash{
     margin-top: 6vw;
-    margin-left: -9vw;
+    margin-left: -10vw;
     width: 15vw;
     height: 2.5vw;
-    background-color: aqua;
+    background-color: #0c5ce4;
     border-radius: 10%;
 }
 
 .barMenu .pala{
     margin-top: 0.5vw;
     font-size: 1vw;
+    color: white;
 }
 
 .barMenu .main{
@@ -58,29 +63,30 @@ body{
     margin-top: 13vw;
     margin-left: 3vw;
     font-size: 1vw;
+    font-family: letra;
 }
 
 .charst{
     margin-top: 17vw;
-    margin-left: -8vw;
+    margin-left: -7.2vw;
     font-size: 1vw;
 }
 
 .widt{
     margin-top: 22vw;
-    margin-left: -3vw;
+    margin-left: -2.5vw;
     font-size: 1vw;
 }
 
 .table{
     margin-top: 25vw;
-    margin-left: -7vw;
+    margin-left: -5vw;
     font-size: 1vw;
 }
 
 .tablecita{
     margin-top: 29vw;
-    margin-left: -7vw;
+    margin-left: -6vw;
     font-size: 1vw;
 }
 
@@ -100,7 +106,9 @@ body{
     margin-left: 19vw;
     width: 80vw;
     height: 5vw;
-    background-color: brown;
+    font-size: 2vw;
+    text-align: left;
+    background-color: whitesmoke;
 }
 
 .botn1{
@@ -113,39 +121,50 @@ body{
 
 .mayorcito{
     margin-top: 30vw;
-    margin-left: 6vw;
+    margin-left: 4vw;
+}
+
+.blann{
+    background: color #f0ecf4;;
+    margin-top: -2.7vw;
+    margin-left: 19vw;
+    width: 80vw;
+    height: 44.3vw;
 }
 
 .titulo{
-    margin-left: -47vw;
+    margin-top: 2.7vw;
+    margin-left: -70vw;
     font-size: 1vw;
 }
 
 .home{
-    margin-left: -52vw;
-    color: aqua;
+    margin-left: -74vw;
+    color: #0c5ce4;
+    font-size: 1vw;
 
 }
 
 .barrita{
-    margin-left: -47vw;
+    margin-left: -70vw;
     margin-top: -2.2vw;
     font-size: 1vw;
 }
 
 .Dashboard{
-    margin-top: -1.2vw;
-    margin-left: -40vw;
+    margin-top: -1vw;
+    margin-left: -64vw;
     font-size: 1vw;
 }
+
 
 .caja1{
     width: 18vw;
     height: 10vw;
-    background-color: blueviolet;
+    background-color:whitesmoke;
     border-radius: 5%;
     margin-top: 5vw;
-    margin-left: 20vw;
+    margin-left: 1vw;
     text-align: left;
 }
 
@@ -161,25 +180,31 @@ body{
     font-size: 1vw;
 }
 
-.barrita1{
-    width: 10vw;
-    height: 1vw;
-    background-color: black;
+.barrita1 img{
+    width: 17vw;
+    height: 5vw;
     border-radius: 13%;
-    margin-left: 1vw;
+    margin-top: 0vw;
+    margin-left: -1vw;
 }
 
 .porcentaje1{
+    margin-top: -1.5vw;
     margin-left: 1vw;
     font-size: 1vw;
+}
+
+.flechaArr1{
+    margin-top: -4vw;
+    margin-left: 15vw;
 }
 
 .caja2{
     width: 18vw;
     height: 10vw;
-    background-color: blueviolet;
+    background-color: whitesmoke;
     border-radius: 5%;
-    margin-top: -10.3vw;
+    margin-top: -10vw;
     margin-left: 20vw;
     text-align: left;
 }
@@ -196,26 +221,32 @@ body{
     font-size: 1vw;
 }
 
-.barrita2{
-    width: 10vw;
-    height: 1vw;
-    background-color: black;
+.barrita2 img{
+    width: 17vw;
+    height: 5vw;
     border-radius: 13%;
-    margin-left: 1vw;
+    margin-top: 0vw;
+    margin-left: -1vw;
 }
 
 .porcentaje2{
+    margin-top: -1.5vw;
     margin-left: 1vw;
     font-size: 1vw;
+}
+
+.flechaAba2{
+    margin-top: -4vw;
+    margin-left: 15vw;
 }
 
 
 .caja3{
     width: 18vw;
     height: 10vw;
-    background-color: blueviolet;
+    background-color: whitesmoke;
     border-radius: 5%;
-    margin-top: -10.3vw;
+    margin-top: -10vw;
     margin-left: 20vw;
     text-align: left;
 }
@@ -232,25 +263,31 @@ body{
     font-size: 1vw;
 }
 
-.barrita3{
-    width: 10vw;
-    height: 1vw;
-    background-color: black;
+.barrita3 img{
+    width: 17vw;
+    height: 5vw;
     border-radius: 13%;
-    margin-left: 1vw;
+    margin-top: 0vw;
+    margin-left: -1vw;
 }
 
 .porcentaje3{
+    margin-top: -1.5vw;
     margin-left: 1vw;
     font-size: 1vw;
+}
+
+.flechaArr3{
+    margin-top: -4vw;
+    margin-left: 15vw;
 }
 
 .caja4{
     width: 18vw;
     height: 10vw;
-    background-color: blueviolet;
+    background-color: whitesmoke;
     border-radius: 5%;
-    margin-top: -10.3vw;
+    margin-top: -10.2vw;
     margin-left: 20vw;
     text-align: left;
 }
@@ -267,37 +304,92 @@ body{
     font-size: 1vw;
 }
 
-.barrita4{
-    width: 10vw;
-    height: 1vw;
-    background-color: black;
+.barrita4 img{
+    width: 17vw;
+    height: 5vw;
     border-radius: 13%;
-    margin-left: 1vw;
+    margin-top: 0vw;
+    margin-left: -1vw;
 }
 
 .porcentaje4{
+    margin-top: -1.5vw;
     margin-left: 1vw;
     font-size: 1vw;
 }
 
+.flechaArr4{
+    margin-top: -4vw;
+    margin-left: 15vw;
+}
+
 .ultiBarra{
     text-align: left;
-    margin-top: 3vw;
+    margin-top: 4vw;
     margin-left: -60vw;
     width: 77.7vw;
     height: 10vw;
-    border-radius: 10%;
-    background-color: red;
+    border-radius: 3%;
+    background-color: whitesmoke;
 }
 
 .salReport{
     padding-top: 0.1vw;
     padding-left: 1vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .holMun{
-    padding-top: 0vw;
+    padding-top: 1vw;
     padding-left: 1vw;
     font-size: 1.5vw;
 }
+.carita{
+    display: flex;
+    width: 2vw;
+    height: 2vw;
+    margin-top: 3vw;
+    margin-left: -10vw;
+}
+
+#meneInput{
+    display: none;
+}
+
+#meneInput:checked ~.barMenu {
+    margin-left: -20vw;
+    animation-name: movimiento;
+    animation-duration: 2s;
+
+}
+
+#meneInput:checked ~.blann{
+    margin-top: -2.7vw;
+    margin-left: 5vw;
+    animation-name: animacion1;
+    animation-duration: 2s;
+}
+
+#meneInput:checked ~.barraBot{
+    margin-left: 6vw;
+    animation-name: animacion2;
+    animation-duration: 2s;
+}
+
+@keyframes movimiento{
+    from{margin-top: -1vw;margin-left: -1vw;}
+    to{margin-left: -30vw;}
+}
+
+@keyframes animacion1{
+    from{margin-left: 19vw;}
+    to{margin-left: 5vw;}
+}
+
+@keyframes animacion2{
+    from{margin-left: 19vw;}
+    to{margin-left: 6vw;}
+}
+
+
+
