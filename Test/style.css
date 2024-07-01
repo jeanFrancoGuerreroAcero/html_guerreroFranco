@@ -1,0 +1,488 @@
+.barraA{
+    display: flex;
+    top: 0vw;
+    left: -2vw;
+    background-color: #3266cc;
+    width: 99vw;
+    height: 10vw;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+}
+
+.inicio{
+    position: relative;
+    margin-top: 1.5vw;
+    margin-left: 12vw;
+    color: white;
+    font-size: 2vw;
+}
+
+.queEs{
+    position: relative;
+    margin-top: -4.5vw;
+    margin-left: 14vw;
+}
+
+.foto{
+    display: flex;
+    position: relative;
+    margin-top: -5vw;
+    margin-left: 27vw;
+    width: 5vw;
+    height: 5vw;
+}
+
+.entrega{
+    color: white;
+    position: relative;
+    margin-top: -6.2vw;
+    margin-left: 50vw;
+}
+
+.boton{
+    background-color: white;
+    position: relative;
+    border-radius: 5vw;
+    margin-top: -4.2vw;
+    margin-left: 65vw;
+    width: 8vw;
+    height: 3vw;
+}
+
+
+.consultar{
+    position: relative;
+    margin-top: 1vw;
+    color: black;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.formulario{
+    position: relative;
+    display: flex;
+    margin-top: 10vw;
+    margin-left: -90vw;
+    width: 104vw;
+    height: 55vw;
+    
+}
+
+.footo{
+    display: flex;
+    position: relative;
+    width: 103vw;
+    height: 55vw;
+}
+
+.cuaBlan{
+    display: flex;
+    position: relative;
+    border-radius: 5%;
+    margin-top: 2vw;
+    margin-left: -92vw;
+    background-color: white;
+    width: 31vw;
+    height: 43vw;
+}
+
+.denCuaBlan{
+    position: relative;
+    margin-top: 0vw;
+    margin-left: 5.5vw;
+    text-align: center;
+    font-size: 2vw;
+    width: 20vw;
+}
+
+
+.porfa{
+    position: relative;
+    text-align: center;
+    margin-top: -32vw;
+    margin-left: -4vw;
+    font-size: 0.8vw;
+    width: 27vw
+    
+}
+
+.formulario1 input{
+    position: relative;
+    margin-top: 8vw;
+    margin-left: -5vw;
+    width: 20vw;
+    height: 1vw;
+    opacity: 1;
+}
+
+.numerodeDocu{
+    position: relative;
+    font-size: 0.8vw;
+    margin-top: -3.9vw;
+    margin-left: -17.7vw;
+}
+.formulario2 input{
+    display: flex;
+    position: relative;
+    margin-top: 5vw;
+    margin-left: -3vw;
+    width: 20vw;
+    height: 1vw;
+    opacity: 1;
+}
+
+.tuNom{
+    position: relative;
+    font-size: 0.8vw;
+    margin-top: -4vw;
+    margin-left: -20.5vw;
+}
+
+.formulario3 input{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 5vw;
+    margin-left: -3vw;
+    width: 20vw;
+    height: 1vw;
+    opacity: 1;
+}
+
+.tuApell{
+    position: relative;
+    font-size: 0.8vw;
+    margin-top: -3.7vw;
+    margin-left: -20.5vw;
+}
+
+.formulario4 input{
+    position: relative;
+    font-size: 1vw;
+    margin-top: 4vw;
+    margin-left: -5.5vw;
+    width: 20vw;
+    height: 1vw;
+    opacity: 1;
+}
+
+.tuTele{
+    position: relative;
+    font-size: 0.8vw;
+    margin-top: -0vw;
+    margin-left: -21vw;
+}
+
+.formulario5 input{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 23vw;
+    margin-left: -3vw;
+    width: 20vw;
+    height: 1vw;
+    opacity: 1;
+}
+
+.expedicionDeldocu{
+    position: relative;
+    font-size: 0.8vw;
+    margin-top: -8vw;
+    margin-left: -13vw;
+}
+
+.cuaAzul{
+    display: flex;
+    position: relative;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    background-color: #3266cc;
+    border-radius: 5vw;
+    width: 8vw;
+    height: 2.5vw;
+
+}
+
+.consultar1{
+    text-align: center;
+    position: relative;
+    color: white;
+    margin-top: -0.5vw;
+    margin-left: 1.8vw;
+    font-size: 1vw;
+}
+
+.ingresoN{
+    position: relative;
+    display: flex;
+    margin-top: 18vw;
+    margin-left: 24vw;
+    font-size: 3vw;
+}
+
+.debido{
+    text-align: center;
+    display: flex;
+    position: relative;
+    margin-top: 25vw;
+    margin-left: -22vw;
+    width: 21.7vw;
+    font-size: 1.3vw;
+}
+
+.cuaAzulito{
+    display: flex;
+    position: relative;
+    margin-top: 37vw;
+    margin-left: -16vw;
+    display: flex;
+    border-radius: 5vw;
+    background-color: #3266cc;
+    width: 10vw;
+    height: 2.5vw;
+}
+
+.denAzull{
+    text-align: center;
+    position: relative;
+    font-size: 1vw;
+    color: white;
+    margin-top: -0.4vw;
+    margin-left: 1.9vw;
+}
+
+.parte2{
+    position: relative;
+    display: flex;
+    margin-top: 65vw;
+    margin-left: -95vw;
+    width: 104vw;
+    height: 55vw;
+}
+
+.parte2{
+    text-align: center;
+    display: flex;
+}
+.QueeEs{
+    position: relative;
+    margin-top: 9vw;
+    margin-left: 37vw;
+    font-size: 2vw;
+}
+
+.esUnEs{
+    position: relative;
+    margin-top: 15vw;
+    margin-left: -48vw;
+    width: 35vw;
+    font-size: 1.6vw;
+}
+
+.paracaidas{
+    position: relative;
+    display: flex;
+    margin-top: 15vw;
+    margin-left: 2vw;
+    width: 29vw;
+    height: 37vw;
+}
+
+.losHoga{
+    position: relative;
+    margin-top: 28vw;
+    margin-left: -66vw;
+    width: 35vw;
+    font-size: 1.6vw;
+}
+
+.conoceLas{
+    position: relative;
+    display: flex;
+    margin-top: 50vw;
+    margin-left: -27vw;
+    font-size: 1.3vw;
+}
+
+.flechaAba{
+    position: relative;
+    display: flex;
+    margin-top: 54vw;
+    margin-left: -9vw;
+    width: 1vw;
+    height: 1vw;
+}
+
+.parte3{
+    position: relative;
+    display: flex;
+    margin-top: 123vw;
+    margin-left: -99.5vw;
+    width: 104vw;
+    height: 60vw;
+}
+
+.EtapasDeEntrega{
+    position: relative;
+    margin-top: 1vw;
+    margin-left: 40vw;
+    font-size: 2.5vw;
+}
+
+.etapa1{
+    position: relative;
+    margin-top: 10vw;
+    margin-left: -43vw;
+    font-size: 2vw;
+}
+
+.etapa2{
+    position: relative;
+    margin-top: 8vw;
+    margin-left: 23svw;
+    font-size: 2vw;
+}
+
+.etapa3{
+    position: relative;
+    margin-top: 8vw;
+    margin-left: 23svw;
+    font-size: 2vw;
+}
+
+.desde7Abril{
+    position: relative;
+    margin-top: 14vw;
+    margin-left: -72vw;
+    font-size: 2vw;
+}
+
+.Abril9_18{
+    position: relative;
+    margin-top: 14vw;
+    margin-left: 12vw;
+    font-size: 2vw;
+}
+
+.Abril18_25{
+    position: relative;
+    margin-top: 14vw;
+    margin-left: 8vw;
+}
+
+.BacosAutoriza{
+    position: relative;
+    margin-top: 20vw;
+    margin-left: -49vw;
+}
+
+.Bancamia{
+    display: flex;
+    position: relative;
+    margin-top: 27vw;
+    margin-left: -49vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+.Bancolombia{
+    position: relative;
+    display: flex;
+    margin-top: 26vw;
+    margin-left: 21vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+.cajaSocial{
+    position: relative;
+    display: flex;
+    margin-top: 28vw;
+    margin-left: 16vw;
+    width: 6vw;
+    height: 6vw;
+}
+
+.movii{
+    position: relative;
+    display: flex;
+    margin-top: 43vw;
+    margin-left: -42vw;
+    width: 6vw;
+    height: 6vw;
+}
+
+.daviPlata{
+    position: relative;
+    display: flex;
+    margin-top: 40vw;
+    margin-left: 18vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+.preguFrecu{
+    position: relative;
+    font-size: 1.3vw;
+    margin: 51vw;
+    margin-left: -31vw;
+}
+
+.flechitaAba{
+    position: relative;
+    display: flex;
+    margin-top: 55vw;
+    margin-left: -58.5vw;
+    width: 1vw;
+    height: 1vw;
+}
+
+.parte4{
+    position: relative;
+    display: flex;
+    margin-top: 185vw;
+    margin-left: -99.3vw;
+    width: 104vw;
+    height: 60vw;
+}
+
+
+.preguFrecuentes1{
+    position: relative;
+    display: flex;
+    margin-top: 2vw;
+    margin-left: 40vw;
+}
+.pregu1{
+    position: relative;
+    display: flex;
+    margin-top: 20vw;
+    margin-left: -28vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+.pregu2{
+    position: relative;
+    display: flex;
+    margin-top: 35vw;
+    margin-left: -19vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+
+.pregu3{
+    position: relative;
+    display: flex;
+    margin-top: 50vw;
+    margin-left: -3vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+
