@@ -770,3 +770,58 @@ body{
     width: 70vw;
     height: 16vw;
 }
+
+
+
+
+@media screen and (max-width:430px) {
+    .ingresoN{
+        margin-top: 50vw;
+        margin-left: -0vw;
+    }
+
+    .debido{
+        margin-top: 60vw;
+        margin-left: -35vw;
+        font-size: 2vw;
+        width: 50vw;
+    }
+
+    .cuaAzulito{
+        margin-top: 75vw;
+        margin-left: -30vw;
+    }
+
+    .parte2{
+        margin-top: 89vw;
+    }
+
+    .esUnEs{
+        margin-left:-39vw ;
+        font-size: 2.3vw;
+        width: 50vw;
+    }
+
+    .losHoga{
+        margin-top: 30vw;
+        margin-left: -4vw;
+        font-size: 2.3vw;
+        width: 50vw;
+    }
+
+    .parte3{
+        margin-top: 180vw;
+    }
+
+    .paracaidas{
+        margin-top: 55vw;
+        width: 20vw;
+        height: 60vw;
+        margin-left: -65vw;
+    }
+
+    .parte4{
+        margin-top: 290vw;
+    }
+    
+}
