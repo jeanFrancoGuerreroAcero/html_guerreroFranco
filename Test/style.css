@@ -7,10 +7,6 @@
     height: 10vw;
 }
 
-.general{
-    height: 500vw;
-}
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw;
@@ -579,6 +575,8 @@ body{
 
 .circulo3{
     position: relative;
+    margin-top: 60vw;
+    margin-left: -2.7vw;
     background-color: #157FFB;
     text-align: center;
     display: flex;
@@ -594,4 +592,182 @@ body{
     margin-top: 0vw;
     margin-left: 1.2vw;
     color: white;
+}
+
+.pregu3{
+    position: relative;
+    margin-top: 64vw;
+    margin-left: -43vw;
+    width: 85vw;
+    height: 21vw;
+}
+
+.partee1{
+    position: relative;
+    margin-top: 0vw;
+    text-align: center;
+    width: 85vw;
+    height: 3vw;
+    opacity: 5;
+    font-weight: 700;
+}
+
+.partee2{
+    position: relative;
+    text-align: center;
+    margin-left: 1vw;
+    margin-top: 4vw;
+    width: 82vw;
+    height: 15vw;
+    opacity: 0.7;
+}
+
+.circulo4{
+    position: relative;
+    margin-top: 89vw;
+    margin-left: -45vw;
+    background-color: #157FFB;
+    text-align: center;
+    display: flex;
+    background-color: #157FFB;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+}
+
+.numero4{
+    position: relative;
+    font-size: 0.9vw;
+    margin-top: 0vw;
+    margin-left: 1.2vw;
+    color: white;
+}
+
+.pregu4{
+    position: relative;
+    margin-top: 93vw;
+    margin-left: -46vw;
+    width: 90vw;
+    height: 20vw;
+}
+
+.paarte1{
+    text-align:center;
+    position: relative;
+    margin-top: -2vw;
+    margin-left: 10vw;
+    width: 70vw;
+    height: 6vw;
+    opacity: 5;
+    font-weight: 700;
+}
+
+.paarte2{
+    text-align: center;
+    position: relative;
+    width: 90vw;
+    height: 10vw;
+    opacity: 0.7;
+}
+
+.circulo5{
+    position: relative;
+    margin-top: 2vw;
+    margin-left: 43vw;
+    background-color: #157FFB;
+    text-align: center;
+    display: flex;
+    background-color: #157FFB;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+}
+
+.numero5{
+    position: relative;
+    font-size: 0.9vw;
+    margin-top: 0vw;
+    margin-left: 1.2vw;
+    color: white;
+}
+
+.pregu5{
+    position: relative;
+    background-color: darkslategrey;
+    margin-left: -6vw;
+    width: 98vw;
+    height: 20vw;
+}
+
+.paartee1{
+    text-align: center;
+    position: relative;
+    width: 98vw;
+    height: 5vw;
+    font-weight: 700;
+    opacity: 5;
+}
+
+.paartee2{
+    text-align: center;
+    position: relative;
+    margin-left: 20vw;
+    margin-top: -2vw;
+    width: 60vw;
+    height: 10vw;
+    opacity: 0.7;
+}
+
+.grandeCuadro{
+    position: relative;
+    margin-top: 148vw;
+    margin-left: -93vw;
+    background-color:#157FFB;
+    width: 90vw;
+    height: 20vw;
+    border-radius: 5vw;
+}
+
+.grandeCuadro .ahorita1{
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3vw;
+    color: white;
+}
+
+.grandeCuadro .ahorita2{
+    position: relative;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+}
+
+.blanquillo{
+    position: relative;
+    margin-left: 38vw;
+    width: 10vw;
+    height: 3vw;
+    border-radius: 5vw;
+    background-color: white;
+}
+
+.ahorita3{
+    position: relative;
+    text-align: center;
+}
+
+.contactar{
+    position: relative;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+}
+
+.ultimo{
+    position: relative;
+    display: flex;
+    margin-top: 178vw;
+    margin-left: -99vw;
+    width: 70vw;
+    height: 16vw;
 }
