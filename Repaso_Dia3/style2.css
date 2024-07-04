@@ -1,0 +1,32 @@
+body{
+    animation-iteration-count: infinite;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(img_nuves/sky.jpg);
+}
+
+.nubes{
+    position: relative;
+    background-color: brown;
+    width: 99vw;
+    height: 35vw;
+}
+
+#nube1{
+    position: relative;
+    top: 4vw;
+    width: 13vw;
+    height: 8vw;
+    animation-duration: 10s;
+    animation-name: primera;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes primera{
+    from{left: 0vw;}
+    to{left: 20vw;}
+}
+
