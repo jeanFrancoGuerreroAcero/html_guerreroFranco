@@ -52,7 +52,6 @@ body{
     height: 3vw;
 }
 
-
 .consultar{
     position: relative;
     margin-top: 1vw;
@@ -719,8 +718,8 @@ body{
 
 .grandeCuadro{
     position: relative;
-    margin-top: 148vw;
-    margin-left: -93vw;
+    margin-top: 140vw;
+    margin-left: -91vw;
     background-color:#157FFB;
     width: 90vw;
     height: 20vw;
@@ -744,7 +743,7 @@ body{
 
 .blanquillo{
     position: relative;
-    margin-left: 38vw;
+    margin-left: 41vw;
     width: 10vw;
     height: 3vw;
     border-radius: 5vw;
@@ -765,7 +764,7 @@ body{
 .ultimo{
     position: relative;
     display: flex;
-    margin-top: 178vw;
+    margin-top: 170vw;
     margin-left: -99vw;
     width: 70vw;
     height: 16vw;
@@ -774,10 +773,28 @@ body{
 
 
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:431px) {
+
+    .cuaBlan{
+        margin-left: -75vw;
+        width: 50vw;
+    }
+
+    .denCuaBlan{
+        margin-left: 15vw;
+        width: 22vw;
+        font-size: 2.3vw;
+    }
+
+    .porfa{
+        margin-left: -9vw;
+        width: 40vw;
+        font-size: 1vw;
+    }
+
     .ingresoN{
         margin-top: 50vw;
-        margin-left: -0vw;
+        margin-left: -35vw;
     }
 
     .debido{
@@ -810,7 +827,7 @@ body{
     }
 
     .parte3{
-        margin-top: 180vw;
+        margin-top: 210vw;
     }
 
     .paracaidas{
@@ -823,5 +840,94 @@ body{
     .parte4{
         margin-top: 290vw;
     }
-    
+
+    .EtapasDeEntrega{
+        font-size: 3vw;
+    }
+
+    .Bancamia{
+        margin-top: 30vw;
+        margin-left: -40vw;
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .Bancolombia{
+        margin-top: 45vw;
+        margin-left: -22vw;
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .cajaSocial{
+        width: 14vw;
+        height: 14vw;
+        margin-top: 70vw;
+        margin-left: -40vw;
+    }
+
+    .movii{
+        width: 12vw;
+        height: 12vw;
+        margin-top: 90vw;
+        margin-left: 6vw;
+    }
+
+    .daviPlata{
+        margin-top: 110vw;
+        margin-left: -15vw;
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .parte4{
+        margin-top: 355vw;
+    }
+
+    .BacosAutoriza{
+        font-size: 3vw;
+        margin-left: -55vw;
+    }
+
+    .preguFrecu{
+        margin-top: 136vw;
+        margin-left: -13vw;
+    }
+
+    .flechitaAba{
+        margin-top: 140vw;
+    }
+
+    .etapa1{
+        font-size: 2.5vw;
+        margin-left: -50vw;
+    }
+
+    .etapa2{
+        font-size: 2.5vw;
+    }
+
+    .etapa3{
+        font-size: 2.5vw;
+    }
+
+    .desde7Abril{
+        font-size: 2.5vw;
+        margin-left: -78vw;
+    }
+
+    .Abril9_18{
+        font-size: 2.5vw;
+        margin-left: 8vw;
+    }
+
+    .Abril18_25{
+        font-size: 2.5vw;
+        margin-left: 5vw;
+    }
+
+    .BacosAutoriza{
+        margin-left: -56vw;
+    }
 }
+
