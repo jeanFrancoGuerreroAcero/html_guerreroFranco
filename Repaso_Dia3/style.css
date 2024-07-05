@@ -144,3 +144,70 @@ body{
     30%{rotate: x -180deg;top: -73vw;}
     100%{rotate: x -180deg;top: -73vw;}
 }
+
+.barra{
+    position: relative;
+    display: flex;
+    top: -30vw;
+    left: -22vw;
+    width: 20vw;
+    height: 60vw;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rayas{
+    position: relative;
+    color: white;
+    top: -26vw;
+    font-size: 3vw;
+    z-index: 2;
+}
+
+#menuInput{
+    position: relative;
+    left: 20vw;
+    display: none;
+}
+
+#menuInput:checked ~.barra{
+    animation-name: menu;
+    animation-duration: 50s;
+}
+
+@keyframes menu{
+    0%{left: -22vw;}
+    5%{left: 0vw;}
+    100%{left: 0vw;}
+}
+
+#vin2{
+    position: relative;
+    color: white;
+    width: 20vw;
+    top: 5vw;
+    left: 2vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+#vin3{
+    position: relative;
+    color: white;
+    width: 18vw;
+    top: 12vw;
+    left: -5.5vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+#vin4{
+    position: relative;
+    color: white;
+    width: 10vw;
+    top: 19vw;
+    left: -13vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+}

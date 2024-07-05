@@ -1,6 +1,9 @@
-.general{
+body{
     background-color: bisque;
-    height: 50vw;
+}
+
+.general{
+    height: 30vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,8 +20,8 @@
 }
 
 @keyframes elCuadro{
-    0%{top: 25vw;}
-    10%{top: 25vw}
+    0%{top: 55vw;}
+    10%{top: 65vw}
     20%{top: 10vw;}
     25%{top: 12vw;}
     32%{top: 10vw;}
@@ -33,6 +36,7 @@
     width: 5vw;
     height: 5.5vw;
     border-radius: 10vw;
+    box-shadow: 0.1vw 0.2vw 1vw;
 }
 
 #your{
