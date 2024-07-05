@@ -1,0 +1,116 @@
+.caminante img{
+    position: absolute;
+    left: 30vw;
+    animation-iteration-count: infinite;
+}
+
+#imagen1{
+    animation-name: primera;
+    animation-duration: 1s;
+}
+
+@keyframes primera{
+   0%{opacity: 1;}
+   100%{opacity: -1;}
+}
+
+#imagen2{
+    animation-name: segunda;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+
+@keyframes segunda{
+    0%{opacity: 1;}
+    100%{opacity: -1;}
+}
+
+#imagen3{
+    animation-name: tercera;
+    animation-duration: 1s;
+    animation-delay: 0.4s;
+}
+
+@keyframes tercera{
+    0%{opacity: 1;}
+    100%{opacity: -1;}
+}
+
+#imagen4{
+    animation-name: cuarta;
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+}
+
+@keyframes cuarta{
+    0%{opacity: 1;}
+    100%{opacity: -1;}
+}
+
+#imagen5{
+    animation-name: quinta;
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+}
+
+@keyframes quinta{
+    0%{opacity: 1;}
+    100%{opacity: -1;}
+}
+
+#imagen6{
+    animation-name: sexta;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+@keyframes sexta{
+    0%{opacity: 1;}
+    100%{opacity: -1;}
+}
+
+#imagen7{
+    animation-name: septima;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+}
+
+@keyframes septima{
+    0%{opacity: 1;}
+    100%{opacity: -1;}
+}
+
+#imagen8{
+    animation-name: optava;
+    animation-duration: 1s;
+    animation-delay: 1.4s;
+}
+
+@keyframes optava{
+    0%{opacity: 1;}
+    100%{opacity: -1;}
+}
+
+#imagen9{
+    animation-name: novena;
+    animation-duration: 1s;
+    animation-delay: 1.6s;
+}
+
+@keyframes novena{
+    0%{opacity: 1;}
+    100%{opacity: -1;}
+}
+
+#imagen10{
+    animation-name: decima;
+    animation-duration: 2s;
+    animation-delay: 1.8s;
+}
+
+@keyframes decima{
+    0%{opacity: 1;}
+    100%{opacity: -1;}
+}
+
+

@@ -9,7 +9,6 @@ body{
 
 .nubes{
     position: relative;
-    background-color: brown;
     width: 99vw;
     height: 35vw;
 }
@@ -26,7 +25,28 @@ body{
 }
 
 @keyframes primera{
-    from{left: 0vw;}
-    to{left: 20vw;}
+    0%{left: -10vw;opacity: 1;}
+    94%{left: 105vw;opacity: 1;}
+    99.5%{left: 105vw;opacity: 1;}
+    100%{left: 105vw;opacity: -1;}
+}
+
+#nube2{
+    position: relative;
+    top: 10vw;
+    left: -22vw;
+    width: 8vw;
+    height: 5vw;
+    animation-name: segunda;
+    animation-duration: 10s;
+    animation-delay: 0.7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes segunda{
+    0%{left: -22vw;opacity: 1;}
+    94%{left: 90vw;opacity: 1;}
+    99.9%{left: 90vw;opacity: 1;}
+    100%{left: 90vw;opacity: -1;}
 }
 
