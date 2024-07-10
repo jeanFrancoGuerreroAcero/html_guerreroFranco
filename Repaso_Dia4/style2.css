@@ -1,10 +1,10 @@
 .cuadroBlan{
     position: relative;
     top: 10vw;
-    left: 38vw;
-    width: 30vw;
-    height: 25vw;
-    box-shadow: 0px 30px 2px;
+    left: 30vw;
+    width: 35vw;
+    height: 30vw;
+    box-shadow: 0px 30px 2px gray;
     border-radius: 2vw;
     background-color: beige;
 }
@@ -14,7 +14,233 @@
     top: 2vw;
     left: 5vw;
     background-color: aqua;
-    width: 20vw;
-    height: 20vw;
+    width: 25vw;
+    height: 25vw;
     border-radius: 100vw;
+}
+
+.flechas{
+    position: absolute;
+    top: 2vw;
+    left: 11vw;
+    animation-name: movimiento;
+    animation-duration: 10s;
+    rotate: 30deg;
+}
+
+@keyframes movimiento{
+    0%{rotate:  30deg;}
+    20%{rotate: 60deg;}
+    30%{rotate:  -300deg;}
+    100%{rotate:  -300deg;}
+}
+
+#rojo{
+    top: 4vw;
+    left: 9vw;
+    width: 0;
+    height: 0;
+    border-right: 20px solid transparent;
+    border-bottom: 150px solid red;
+    border-left: 20px solid transparent;
+}
+
+#blanco{
+    top: 4vw;
+    left: 9vw;
+    width: 0;
+    height: 0;
+    border-right: 20px solid transparent;
+    border-bottom: 150px solid white;
+    border-left: 20px solid transparent;
+}
+
+#primera{
+    position: relative;
+    top: 23vw;
+    left: 10vw;
+    width: 0.2vw;
+    height: 1vw;
+    rotate: 8deg;
+    background-color: black;
+}
+
+#segunda{
+    position: relative;
+    top: 21vw;
+    left: 11vw;
+    width: 0.2vw;
+    height: 2vw;
+    rotate: 5deg;
+    background-color: black;
+}
+
+#tercera{
+    position: relative;
+    top: 20vw;
+    left: 12vw;
+    width: 0.2vw;
+    height: 1vw;
+    background-color: black;
+}
+
+#cuarta{
+    position: relative;
+    top: 18vw;
+    left: 13vw;
+    width: 0.2vw;
+    height: 2vw;
+    rotate: -5deg;
+    background-color: black;
+}
+
+#quinta{
+    position: relative;
+    top: 16.7vw;
+    left: 14vw;
+    width: 0.2vw;
+    height: 1vw;
+    rotate: -6deg;
+    background-color: black;
+}
+
+#septima{
+    position: relative;
+    top: 14.5vw;
+    left: 15vw;
+    width: 0.2vw;
+    height: 2vw;
+    rotate: -7deg;
+    background-color: black;
+}
+
+#octava{
+    position: relative;
+    top: 13vw;
+    left: 16vw;
+    width: 0.2vw;
+    height: 1vw;
+    rotate: -8deg;
+    background-color: black;
+}
+
+#novena{
+    position: relative;
+    top: 11vw;
+    left: 17vw;
+    width: 0.2vw;
+    height: 2vw;
+    rotate: -9deg;
+    background-color: black;
+}
+
+#decima{
+    position: relative;
+    top: 10vw;
+    left: 16vw;
+    width: 0.2vw;
+    height: 1vw;
+    rotate: -10deg;
+    background-color: black;
+}
+
+#once{
+    position: relative;
+    top: 7vw;
+    left: 18vw;
+    width: 0.2vw;
+    height: 2vw;
+    rotate: -11deg;
+    background-color: black;
+}
+
+#doce{
+    position: relative;
+    top: 5vw;
+    left: 19vw;
+    width: 0.2vw;
+    height: 1vw;
+    rotate: -12deg;
+    background-color: black;
+}
+
+#trece{
+    position: relative;
+    top: 3vw;
+    left: 20vw;
+    width: 0.2vw;
+    height: 2vw;
+    rotate: -13deg;
+    background-color: black;
+}
+
+#catorce{
+    position: relative;
+    top: 0vw;
+    left: 21vw;
+    width: 0.2vw;
+    height: 1vw;
+    rotate: -14deg;
+    background-color: black;
+}
+
+#quince{
+    position: relative;
+    top: -2.8vw;
+    left: 21.3vw;
+    width: 0.2vw;
+    height: 2vw;
+    rotate: -15deg;
+    background-color: black;
+}
+
+#dieciseis{
+    position: relative;
+    top: -5vw;
+    left: 22vw;
+    width: 0.2vw;
+    height: 1vw;
+    rotate: -20deg;
+    background-color: black;
+}
+
+#diecisiete{
+    position: relative;
+    top: -8vw;
+    left: 22vw;
+    width: 0.2vw;
+    height: 2vw;
+    rotate: -23deg;
+    background-color: black;
+}
+
+#dieciocho{
+    position: relative;
+    top: -11vw;
+    left: 22vw;
+    width: 0.2vw;
+    height: 1vw;
+    rotate: -25deg;
+    background-color: black;
+}
+
+
+#diecinueve{
+    position: relative;
+    top: -14vw;
+    left: 22vw;
+    width: 0.2vw;
+    height: 2vw;
+    rotate: -30deg;
+    background-color: black;
+}
+
+#veinte{
+    position: relative;
+    top: -17vw;
+    left: 22vw;
+    width: 0.2vw;
+    height: 1vw;
+    rotate: -35deg;
+    background-color: black;
 }
