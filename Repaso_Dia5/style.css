@@ -1,0 +1,494 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.BarraArriba{
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    width: 99vw;
+    height: 10vw;
+}
+
+#Logo{
+    position: relative;
+    top: 1vw;
+    left: 15vw;
+    font-size: 2vw;
+}
+
+#home{
+    position: relative;
+    top: 2vw;
+    left: 30vw;
+    font-size: 1.5vw;
+}
+
+#about{
+    position: relative;
+    top: 2vw;
+    left: 15vw;
+    font-size: 1.5vw;
+}
+
+#menu{
+    position: relative;
+    font-size: 1.5vw;
+    top: 1.9vw;
+}
+
+#Contac{
+    position: relative;
+    font-size: 1.5vw;
+    top: 1.7vw;
+    left: -15vw;
+}
+
+.startYour{
+    position: absolute;
+    color: white;
+    top: 10vw;
+    width: 99vw;
+    height: 60vw;
+    text-align: center;
+}
+
+#titulo{
+    position: relative;
+    font-size: 3vw;
+}
+
+#cafe{
+    position: relative;
+    display: flex;
+    left: 33vw;
+    width: 30vw;
+    height: 30vw;
+}
+
+#titulo2{
+    position: relative;
+    font-size: 3vw;
+}
+
+.segundaParte{
+    position: relative;
+    top: 69.5vw;
+    width: 99vw;
+    height: 50vw;
+}
+
+#cafe2{
+    position: relative;
+    display: flex;
+    top: 5vw;
+    width: 30vw;
+    height: 30vw;
+}
+
+#lorem{
+    font-size: 2vw;
+}
+
+#linea{
+    position: relative;
+    left: 37vw;
+    top: -14vw;
+    background-color: white;
+    width: 7vw;
+    height: 0.3vw;
+}
+
+#textico{
+    position: relative;
+    top: -20vw;
+    left: 45vw;
+    width: 50vw;
+    height: 30vw;
+    color: white;
+}
+
+#ourstory{
+    font-size: 5vw;
+}
+
+#cuadroAmari{
+    position: relative;
+    text-align: center;
+    border-radius: 0.3vw;
+    color: black;
+    background-color: burlywood;
+    width: 13vw;
+    height: 4vw;
+}
+
+#Liset{
+    position: relative;
+    font-size: 1.5vw;
+    top: 1vw;
+}
+
+.terceraParte{
+    position: relative;
+    top: 60vw;
+    width: 99vw;
+    height: 40vw;
+}
+
+.escrito{
+    position: relative;
+    text-align: left;
+    top: 2vw;
+    left: 10vw;
+    width: 22vw;
+    height: 20vw;
+    color: white;
+}
+
+#Perfect{
+    font-size: 2.5vw;
+}
+
+#abajo{
+    font-size: 1vw;
+}
+
+#cuadro22{
+    background-color: burlywood;
+    width: 13vw;
+    height: 3vw;
+    text-align: center;
+    border-radius: 0.3vw;
+}
+
+#mmm{
+    position: relative;
+    top: 1vw;
+    font-size: 1.5vw;
+    color: black;
+}
+
+#cafeCorazon{
+    position: relative;
+    top: -20vw;
+    left: 60vw;
+    display: flex;
+    width: 20vw;
+    height: 20vw;
+}
+
+.ultimaParte{
+    position: relative;
+    top: 50vw;
+    width: 99vw;
+    height: 70vw;
+}
+
+#cafeRojo{
+    position: relative;
+    top: -2vw;
+    left: 5vw;
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+}
+
+.casilla1{
+    position: relative;
+    text-align: left;
+    top: 7.4vw;
+    left: 10vw;
+    width: 15vw;
+    height: 25vw;
+    background-color: transparent;
+    border: 0.3vw solid burlywood;
+    color: white;
+}
+
+#mocha{
+    position: relative;
+    left: 5vw;
+    font-size: 1vw;
+}
+
+#espreso{
+    position: relative;
+    font-size: 1vw;
+}
+
+#estemed{
+    position: relative;
+    font-size: 1vw;
+}
+
+#chocolate{
+    font-size: 1vw;
+}
+
+.moverse{
+    position: relative;
+    top: 3vw;
+    left: 4vw;
+}
+
+.botonAmar{
+    position: relative;
+    top: 5vw;
+    left: 2vw;
+    background-color: burlywood;
+    width: 10vw;
+    height: 2vw;
+    text-align: center;
+    border-radius: 0.3vw;
+}
+
+#lemo{
+    position: relative;
+    top: 0.4vw;
+    font-size: 1.2vw;
+    color: black;
+}
+
+#cafeBlanco{
+    position: relative;
+    top: -2vw;
+    left: 5.5vw;
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+}
+
+.casilla2{
+    position: relative;
+    text-align: left;
+    top: -18vw;
+    left: 40vw;
+    width: 15vw;
+    height: 25vw;
+    background-color: transparent;
+    border: 0.3vw solid burlywood;
+    color: white;
+}
+
+#mocha2{
+    position: relative;
+    left: 5vw;
+    font-size: 1vw;
+}
+
+#espreso2{
+    position: relative;
+    font-size: 1vw;
+}
+
+#estemed2{
+    position: relative;
+    font-size: 1vw;
+}
+
+#chocolate2{
+    font-size: 1vw;
+}
+
+.moverse2{
+    position: relative;
+    top: 3vw;
+    left: 4vw;
+}
+
+.botonAmar2{
+    position: relative;
+    top: 5vw;
+    left: 2vw;
+    background-color: burlywood;
+    width: 10vw;
+    height: 2vw;
+    text-align: center;
+    border-radius: 0.3vw;
+}
+
+#lemo2{
+    position: relative;
+    top: 0.4vw;
+    font-size: 1.2vw;
+    color: black;
+}
+
+#cafeNegro{
+    position: relative;
+    top: -2vw;
+    left: 5.5vw;
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+}
+
+.casilla3{
+    position: relative;
+    text-align: left;
+    top: -43.6vw;
+    left: 70vw;
+    width: 15vw;
+    height: 25vw;
+    background-color: transparent;
+    border: 0.3vw solid burlywood;
+    color: white;
+}
+
+#mocha3{
+    position: relative;
+    left: 5vw;
+    font-size: 1vw;
+}
+
+#espreso3{
+    position: relative;
+    font-size: 1vw;
+}
+
+#estemed3{
+    position: relative;
+    font-size: 1vw;
+}
+
+#chocolate3{
+    font-size: 1vw;
+}
+
+.moverse3{
+    position: relative;
+    top: 3vw;
+    left: 4vw;
+}
+
+.botonAmar3{
+    position: relative;
+    top: 5vw;
+    left: 2vw;
+    background-color: burlywood;
+    width: 10vw;
+    height: 2vw;
+    text-align: center;
+    border-radius: 0.3vw;
+}
+
+#lemo3{
+    position: relative;
+    top: 0.4vw;
+    font-size: 1.2vw;
+    color: black;
+}
+
+#Prod{
+    position: relative;
+    left: 5vw;
+    font-size: 3vw;
+    color: white;
+}
+
+.rayaUltimo{
+    position: relative;
+    top: -38vw;
+    left: 37vw;
+    background-color: burlywood;
+    width: 22vw;
+    height: 0.2vw;
+}
+
+.final{
+    position: relative;
+    top: -30vw;
+    width: 99vw;
+    justify-content: space-between;
+}
+
+.primerAbout{
+    position: relative;
+    left: 20vw;
+    width: 20vw;
+    text-align: center;
+}
+
+#aboutBlanco{
+    position: relative;
+    left: -2vw;
+    font-size: 2vw;
+    color: white;
+}
+
+#aboutAmarrillo{
+    position: relative;
+    font-size: 1.8vw;
+    left: 3vw;
+    top: -3.7vw;
+    color: burlywood;
+}
+
+#siesta{
+    position: relative;
+    top: -3vw;
+    color: white;
+    font-size: 1vw;
+}
+
+.ultimoContact{
+    position: relative;
+    top: -11.6vw;
+    left: 41vw;
+    width: 20vw;
+    text-align: center;
+}
+
+#ContacBlanco{
+    position: relative;
+    left: -2vw;
+    font-size: 2vw;
+    color: white;
+}
+
+#ContacAmarrillo{
+    position: relative;
+    font-size: 1.8vw;
+    left: 3vw;
+    top: -3.7vw;
+    color: burlywood;
+}
+
+#siesta2{
+    position: relative;
+    font-size: 1vw;
+    top: -3vw;
+    color: white;
+}
+
+.ultimoOpening{
+    position: relative;
+    top: -23.2vw;
+    left: 61vw;
+    width: 20vw;
+    text-align: center;
+}
+
+#openingBlanco{
+    position: relative;
+    left: -4vw;
+    font-size: 2vw;
+    color: white;
+}
+
+#openingAmarrillo{
+    position: relative;
+    font-size: 1.8vw;
+    left: 4vw;
+    top: -3.7vw;
+    color: burlywood;
+}
+
+#siesta3{
+    position: relative;
+    top: -3vw;
+    color: white;
+    font-size: 1vw;
+}
