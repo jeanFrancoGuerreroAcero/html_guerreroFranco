@@ -88,7 +88,14 @@ Realizacion de maquetacion de pagina de cafeteria, cuenta con:
 - CSS3
 
 ## Estructuras del repositorio 
-
+- ![alt text](captura1.png)
+- ![alt text](captura2.png)
+- ![alt text](captura4.png)
+- ![alt text](captura5.png)
+- ![alt text](captura6.png)
+- ![alt text](captura7.png)
+- ![alt text](captura8.png)
+- ![alt text](captura9.png)
 
 ## Caracteristicas
 - Archivo con etiqueta HTML contienen la base de las maquetas 
@@ -100,5 +107,3 @@ Realizacion de maquetacion de pagina de cafeteria, cuenta con:
  
 ## Desarrolado por 
 Repositorio desarrolado por jean franco guerrero acero. Estudiante de Campuslands 
-
-
